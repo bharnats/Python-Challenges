@@ -114,7 +114,7 @@ with open(csvpath, newline="") as csvfile:
     print(f'Greatest Increase in Revenue: {greatestIncreaseRevDate} (${maxRevDiff})')
     print(f'Greatest Decrease in Revenue: {greatestDecreaseRevDate} (${minRevDiff})')
 
-    output_filepath = "pyBank2.txt"
+    output_filepath = "OutPyBank2.txt"
     with open(output_filepath,"w") as write_file :
         # write the results to a text file
         write_file.write('\nFinancial Analysis\n')
