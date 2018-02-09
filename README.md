@@ -39,7 +39,8 @@ Python scripts created  that analyzes the votes and calculates each of the follo
 * The winner of the election based on popular vote.
 
 ### Final Thoughts
-The script is able to handle any such similarly-structured dataset in the future (i.e Since I have zero intentions of living in this hillbilly town -- my script needs to work without massive re-writes). In addition, final script prints the analysis to the terminal and exports a text file with the results.
+* [Out_py_poll](pyPoll/Out_Py_Poll.txt)
+* The script is able to handle any such similarly-structured dataset in the future (i.e Since I have zero intentions of living in this hillbilly town -- my script needs to work without massive re-writes). In addition, final script prints the analysis to the terminal and exports a text file with the results.
 
 
 PyParagraph - Automate the analysis of any passage and set metrics for assessing the language complexity
