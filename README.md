@@ -1,6 +1,4 @@
-# python-challenge
-Python Scripts for:
-
+# python-challenges
 ## PyBank 
 ### Objective:
 Analysing the financial records of a company using Python.
@@ -19,7 +17,6 @@ Each dataset is composed of two columns: `Date` and `Revenue`. Created a Python 
 * The greatest decrease in revenue (date and amount) over the entire period
 
 ### Results
-
 for [dataSet_1](pyBank/budget_data_1.csv)
 ```
 Financial Analysis
@@ -47,7 +44,6 @@ The final script is able to handle any such similarly structured dataset in the 
 
 
 ## PyPoll 
-
 ### Objective:
 The task is to help a small, rural town modernize its vote-counting process. (Up until now, Someone had been trustfully tallying them one-by-one, but unfortunately, his concentration isn't what it used to be.)
 
@@ -82,7 +78,6 @@ Winner: Khan
 
 
 ## PyParagraph
-
 ### Objective:
 Automate the analysis of any passage and set metrics for assessing the language complexity.
 
