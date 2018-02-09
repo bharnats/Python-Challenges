@@ -31,7 +31,7 @@ The task is to help a small, rural town modernize its vote-counting process. (Up
 
 ### Analysis
 Python scripts created  that analyzes the votes and calculates each of the following:
-* [poll_data](pyPoll/pyPoll.py)
+* [pyPoll.py](pyPoll/pyPoll.py)
 * The total number of votes cast
 * A complete list of candidates who received votes
 * The percentage of votes each candidate won
