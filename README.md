@@ -52,7 +52,7 @@ The final script is able to handle any such similarly structured dataset in the 
 The task is to help a small, rural town modernize its vote-counting process. (Up until now, Someone had been trustfully tallying them one-by-one, but unfortunately, his concentration isn't what it used to be.)
 
 ### Exploring the dataset 
-* Given two sets of poll data (`election_data_1.csv` and `election_data_2.csv`), Each dataset is composed of three columns: 
+* Given the poll data `pyPoll.csv`, the dataset is composed of three columns: 
 `Voter ID`, `County`, and `Candidate`.
 
 ### Analysis
