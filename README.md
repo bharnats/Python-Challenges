@@ -24,7 +24,7 @@ final script must be able to handle any such similarly structured dataset in the
 ### Objective:
 The task is to help a small, rural town modernize its vote-counting process. (Up until now, Someone had been trustfully tallying them one-by-one, but unfortunately, his concentration isn't what it used to be.)
 
-### Exploring the dataset
+### Exploring the dataset [raw_data](pyPoll/pyPoll.csv)
 Given two sets of poll data (`election_data_1.csv` and `election_data_2.csv`), Each dataset is composed of three columns: 
 `Voter ID`, `County`, and `Candidate`.
 
