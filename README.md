@@ -52,7 +52,6 @@ The final script is able to handle any such similarly structured dataset in the 
 The task is to help a small, rural town modernize its vote-counting process. (Up until now, Someone had been trustfully tallying them one-by-one, but unfortunately, his concentration isn't what it used to be.)
 
 ### Exploring the dataset 
-* [poll_data](pyPoll/pyPoll.csv)
 * Given two sets of poll data (`election_data_1.csv` and `election_data_2.csv`), Each dataset is composed of three columns: 
 `Voter ID`, `County`, and `Candidate`.
 
@@ -65,9 +64,21 @@ Python scripts created  that analyzes the votes and calculates each of the follo
 * The total number of votes each candidate won
 * The winner of the election based on popular vote.
 
-### Final Thoughts
-* ![poll_results](pyPoll/poll_results.png)
-* The script is able to handle any such similarly-structured dataset in the future (i.e Since I have zero intentions of living in this hillbilly town -- my script needs to work without massive re-writes). In addition, final script prints the analysis to the terminal and exports a text file with the results.
+### Results:
+```
+Election Results
+-----------------------------------
+Total Votes: 1048575
+-----------------------------------
+Khan: 63% (661583)
+Correy: 20% (209046)
+Li: 14% (146360)
+O'Tooley: 3% (31586)
+--------------------------------
+Winner: Khan
+```
+* The script is able to handle any such similarly-structured dataset in the future (i.e Since I have zero intentions of living in this hillbilly town -- my script needs to work without massive re-writes). 
+* In addition, final script prints the analysis to the terminal and exports a text file with the results.
 
 
 ## PyParagraph
