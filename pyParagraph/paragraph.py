@@ -45,6 +45,20 @@ with open(filepath,"r") as txt_file :
     print(f'Average Sentence Length(in words): {avg_word_per_sent}' )
     print("------------------------------")
 
+      # open a text file to write the results into..
+    output_filepath = "OutPyParagraph.txt"
+    with open(output_filepath,"w") as write_file :
+        
+        # write the results to a text file
+        write_file.write('\nParagraph Analysis\n')
+        write_file.write("-----------------------------------\n")
+        write_file.write('Approximate Word Count: %s\n' %word_count)
+        write_file.write('Approximate Sentence Count: %s\n' %sent_count)
+        write_file.write('Average Letter Count: %s\n' %avg_letter_count)
+        write_file.write('Average Sentence Length: %s\n' %avg_word_per_sent)
+      
+
+
     
 
 
