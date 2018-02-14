@@ -96,11 +96,11 @@ As chief linguistic Analyst, the responsibility includes assessing the complexit
 
   * Average sentence length (in words)
 
-As an example, this passage:
+This passage:
 
 > Pollution is bad. Not only does it hinder our breathing, but it also hurts the world. We will not have a place for our children at the current rate of pollution, so pollution is a serious concern. We must pass laws to ensure that factories, cars, and other pollutant-producing agents do not continue to harm our planet. If we stop pollution, then we can have a clean, safe earth to enjoy.
 
-...would yield these results:
+...yields these results:
 ```
 Paragraph Analysis
 -----------------------------------
